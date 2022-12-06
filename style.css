@@ -1,0 +1,123 @@
+/* This is CSS for my personal styling of the background */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Special+Elite&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+html {
+	height: 2000px;
+	background-color: rgba(255, 0, 0, 0.274);
+	background-image:url(icegif-330.gif);
+	background-size: 100% auto;
+	background-position: top center;
+	background-attachment: fixed;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Special Elite', cursive;
+	}
+
+body {
+	height: 100%;
+	background-image: linear-gradient(rgb(7, 7, 7), transparent 70%);
+	background-size: 100% 100%;
+	mix-blend-mode: difference;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Special Elite', cursive;
+	}
+/* Original CSS for quiz */
+body{
+	padding: 0;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;
+	position: relative;
+}
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
+	position: relative;
+	margin-top: -1500;
+
+}
+.question-container{
+	margin: 50px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: rgba(147, 147, 147, 0);
+    font-family: 'Nerko One', cursive;
+    font-family: 'Special Elite', cursive;
+	font-size: 40px;
+	text-align: center;
+	color: rgb(216, 219, 218);
+	z-index: -1;
+	position: relative;
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Special Elite', cursive;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: rgba(0, 0, 0, 0);
+		
+}
+.option{	
+	padding: 7px;
+	width: 15vw;
+	height: 10vh;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 25%;
+	color: white;
+}
+.option:hover{
+	background-color: rgba(47, 243, 240, 0.88);
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:rgba(146, 142, 142, 0);
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Special Elite', cursive;
+	font-size: 40px;
+}
+.evaluate{
+	
+	background-color: rgb(38, 228, 231);
+    color: white;
+}
+.next{
+	color: white;
+	background-color: rgba(31, 253, 245, 0.826);
+}
